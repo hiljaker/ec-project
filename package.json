@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -18,13 +19,15 @@
     "reactstrap": "^8.9.0",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
+    "sweetalert2": "^11.1.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "cd server && json-server -p 7000 -w db.json"
   },
   "eslintConfig": {
     "extends": [
